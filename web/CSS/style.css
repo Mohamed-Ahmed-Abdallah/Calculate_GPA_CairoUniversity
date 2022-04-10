@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 10, 2022, 8:46:50 AM
+    Author     : Mohamed
+*/
+
+body{
+    background-color:teal;
+    border: 5px solid black;
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 40px;
+}
+
+#subjects .parent{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#subjects .parent .child{
+    width: 15%;
+    height: 110px;
+    background-color:burlywood;
+    margin-bottom: 20px;
+    padding: 5px 2px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold; 
+}
+
+#subjects .parent .child select{
+    width: 50%;
+    margin: auto;
+    background-color:window;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 18px; 
+}
+
+#subjects input {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+@media (max-width: 1300px){
+    #subjects .parent .child{
+        width: 20%;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1200px){
+    #subjects .parent .child{
+        width: 30%;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 899px){
+    #subjects .parent .child{
+        width: 40%;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 579px){
+    #subjects .parent .child{
+        width: 80%;
+        height: 110px;
+        background-color:burlywood;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 5px 2px;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+}
+
+/* End of index.jsp */
+
+#GPA{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 0px;
+    background-color: burlywood;
+}
+
+#GPA h1{
+    margin-left: 50px;
+}
+
+#GPA h1 span{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+@media (max-width: 730px){
+    #GPA h1{
+        margin-left: 10px;
+    }
+}
+
+/* End of calculate.jsp */
